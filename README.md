@@ -1,4 +1,4 @@
-# AI_APIs_Workshops
+# Artificial Intelligence API Meetup series
 
 This repository contains all of the slides, workshop instructions and sample applications for the IBM Code Meetup series.
 
