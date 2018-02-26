@@ -36,4 +36,4 @@ To complete this workshop you will need:
 
 ## All set-up!
 
-You can now [start the lab by clicking here](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/natural_language_understanding/README.md#building-the-flow)!
+You can now [start the lab by clicking here](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/natural_language_understanding/README.md#building-the-flow)! (Start from "Building the Flow".)
