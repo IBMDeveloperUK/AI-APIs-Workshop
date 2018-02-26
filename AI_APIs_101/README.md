@@ -13,7 +13,7 @@ To complete this workshop you will need:
 **Creating a Node-RED app**
 
 1. [Sign up for an account here](https://ibm.biz/BdZHfN)
-2. Verify your account via the email it sends you
+2. Verify your account by clicking on the link in the email sent to you
 3. Log in to your IBM Cloud account
 4. Click on "Catalog" on the top-right corner
 5. Search and select "Node-RED Starter" 
