@@ -1,4 +1,4 @@
-# Workshop 1 - Trying out an AI APIs using Node-RED
+# Workshop 1 - Trying out an AI API using Node-RED
 
 In this workshop you will get your first hands-on with a Natural Language Understanding API using Node-RED.
 
