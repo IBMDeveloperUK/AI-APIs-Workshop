@@ -24,6 +24,4 @@ NB: If you already have a Conversation that you want to work from you can skip t
 
 ## All set!
 
-You can now follow this tutorial: [Making programmatic calls from a dialog node](https://console.bluemix.net/docs/services/conversation/dialog-actions.html#call-action)
-
-Use the instructions on how to make a **server** side call. 
+You can now follow this tutorial: [Making programmatic calls from a dialog node](https://console.bluemix.net/docs/services/conversation/dialog-actions.html) using the instructions on how to make a **server** side call. 
