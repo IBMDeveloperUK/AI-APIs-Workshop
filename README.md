@@ -7,7 +7,7 @@ This repository contains all of the slides, workshop instructions and sample app
 - [Workshop Instructions](https://github.com/arlemi/AI_APIs_Workshops/tree/master/AI_APIs_101/README.md)
 
 ## Part 2 - 05<sup>th</sup> March - Chatbots
-- Lecture Slides
+- [Lecture Slides](https://github.com/arlemi/AI_APIs_Workshops/blob/master/AI_APIs_Chatbots/meetup2.pdf)
 - [Workshop nº1: Introduction to Watson Conversation](https://github.com/arlemi/chatbot-workshop/blob/master/training.md)
 - [Workshop nº2: Calling serverless functions from Watson Conversation](https://github.com/arlemi/AI_APIs_Workshops/blob/master/AI_APIs_Chatbots/README.md)
  
