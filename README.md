@@ -12,4 +12,6 @@ This repository contains all of the slides, workshop instructions and sample app
 - [Workshop nº2: Calling serverless functions from Watson Conversation](https://github.com/arlemi/AI_APIs_Workshops/blob/master/AI_APIs_Chatbots/README.md)
 
 ## Visual Recognition
-- ...
+- Lecture Slides
+- [Workshop nº1: Create a simple app calling an Image recognition service](https://github.com/arlemi/AI_APIs_Workshops/blob/master/AI_APIs_VR/lab1.md)
+- [Workshop nº2: Create your own classifier on top of an Image Recognition service](https://github.com/arlemi/AI_APIs_Workshops/blob/master/AI_APIs_VR/lab2.md)
