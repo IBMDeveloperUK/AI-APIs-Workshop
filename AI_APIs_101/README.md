@@ -43,35 +43,35 @@ Add the following nodes from the palette to your flow canvas.
 ### Flow Wiring
 Wire the nodes together like so:
 
-![ScreenShot](images/nlu_flow.jpg)
+![ScreenShot](nlu_flow.jpg)
 
 ### Node configuration
 
 The first inject node will be used to inject a url into the flow. The example uses the standard IBM US site: [https://www.ibm.com/us-en/](https://www.ibm.com/us-en/)
 
-![ScreenShot](images/nlu_inject_url.jpg)
+![ScreenShot](nlu_inject_url.jpg)
 
 The second inject node will be used to inject text into the flow. Any text can be used,  for example:
 >	This is the sample text on which I want some understanding.
 
-![ScreenShot](images/nlu_inject_text.jpg)
+![ScreenShot](nlu_inject_text.jpg)
 
 Configure the Natural Language Understanding node for the service features that you want to detect. As you select the items you require, the node menu will expand with additional options.
 
-![ScreenShot](images/nlu_node_detials.jpg)
+![ScreenShot](nlu_node_detials.jpg)
 
 Configure the debug node to show the complete msg object.
 
-![ScreenShot](images/nlu_debug.jpg)
+![ScreenShot](nlu_debug.jpg)
 
 ### Trying your flow
 Deploy the application and initiate both inject nodes. The output from the URL inject should look like:
 
-![ScreenShot](images/nlu_url_output.jpg)
+![ScreenShot](nlu_url_output.jpg)
 
 and the output from the Text inject should look like:
 
-![ScreenShot](images/nlu_text_output.jpg)
+![ScreenShot](nlu_text_output.jpg)
 
 From the debug tab, you can drill down into the keywords and categories etc.
 
