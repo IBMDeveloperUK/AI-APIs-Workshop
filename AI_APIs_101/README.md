@@ -34,6 +34,53 @@ To complete this workshop you will need:
 4. Click on "Create Connection"
 5. Click "Connect" next to your NLU service and then "Restage"
 
-## All set-up!
+## Building the Flow
+Add the following nodes from the palette to your flow canvas.
+*	Two Inject nodes.
+*	A Natural Language Understanding node.
+* A Debug node.
 
-You can now [start the lab by clicking here](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/natural_language_understanding/README.md#building-the-flow)! (Start from "Building the Flow".)
+### Flow Wiring
+Wire the nodes together like so:
+
+![ScreenShot](images/nlu_flow.jpg)
+
+### Node configuration
+
+The first inject node will be used to inject a url into the flow. The example uses the standard IBM US site: [https://www.ibm.com/us-en/](https://www.ibm.com/us-en/)
+
+![ScreenShot](images/nlu_inject_url.jpg)
+
+The second inject node will be used to inject text into the flow. Any text can be used,  for example:
+>	This is the sample text on which I want some understanding.
+
+![ScreenShot](images/nlu_inject_text.jpg)
+
+Configure the Natural Language Understanding node for the service features that you want to detect. As you select the items you require, the node menu will expand with additional options.
+
+![ScreenShot](images/nlu_node_detials.jpg)
+
+Configure the debug node to show the complete msg object.
+
+![ScreenShot](images/nlu_debug.jpg)
+
+### Trying your flow
+Deploy the application and initiate both inject nodes. The output from the URL inject should look like:
+
+![ScreenShot](images/nlu_url_output.jpg)
+
+and the output from the Text inject should look like:
+
+![ScreenShot](images/nlu_text_output.jpg)
+
+From the debug tab, you can drill down into the keywords and categories etc.
+
+## Flow Source
+The complete flow is available [here](nlu_flow.json).
+
+
+## Natural Language Understanding Documentation
+To find more information on the Watson Natural Language Understanding underlying service, visit these webpages:
+- [NLU Documentation](https://console.bluemix.net/docs/services/natural-language-understanding/index.html)
+- [NLU API Documentation](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
+
