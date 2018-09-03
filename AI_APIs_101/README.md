@@ -10,19 +10,19 @@ To complete this workshop you will need:
 - A Node-Red instance
 - A Natural Language Understanding service
 
-**Creating a Node-RED app**
+**Creating a Node-RED app** (If you don't have one yet)
 
 1. [Sign up for an account here](https://ibm.biz/BdYMsy)
 2. Verify your account by clicking on the link in the email sent to you
 3. Log in to your IBM Cloud account
-4. Click on "Catalog" on the top-right corner
+4. Click on "Catalog" at the top
 5. Search and select "Node-RED Starter" 
 6. Give a unique name to your app and click "Create"
 
 **Provisioning the NLU service**
 
 1. Log in to your IBM Cloud account
-2. Click on "Catalog" on the top-right corner
+2. Click on "Catalog" at the top
 3. Search and select "Natural Language Understanding" 
 4. Create the service
 
