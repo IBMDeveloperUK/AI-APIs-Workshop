@@ -36,12 +36,12 @@ To complete this workshop you will need:
 
 ### Building the flow
 The flow will present a simple web page with a text field of where to input the image's URL, then submit it to Watson Visual Recognition. It will output the labels that have been found on the reply Web page.
-![Reco-Lab-VisualRecognitionFlow.png](images/reco_lab_visual_recognition_flow.png)
+![Reco-Lab-VisualRecognitionFlow.png](reco_lab_visual_recognition_flow.png)
 The nodes required to build this flow are:
 
  - A ![`HTTPInput`](/introduction_to_node_red/images/node_red_httpinput.png) node, configured with a `/reco` URL
  - A ![`switch`](/introduction_to_node_red/images/node_red_switch.png) node which will test for the presence of the `imageurl` query parameter:
-   ![Reco-Lab-Switch-Node-Props](images/reco_lab_switch_node_props.png)
+   ![Reco-Lab-Switch-Node-Props](reco_lab_switch_node_props.png)
  - A first ![template](/introduction_to_node_red/images/node_red_template.png) node, configured to output an HTML input field and suggest a few selected images taken from the main Watson Visual Recognition demo web page:
 ```HTML
 <html>
@@ -63,14 +63,14 @@ The nodes required to build this flow are:
     </body>
 </html>
 ```
-![Reco-Lab-Template1-Node-Props](images/reco_lab_template1_node_props.png)
+![Reco-Lab-Template1-Node-Props](reco_lab_template1_node_props.png)
 
 - A ![change](/introduction_to_node_red/images/node_red_change.png) node (named `Extract img URL` here) to extract the `imageurl` query parameter from the web request and assign it to the payload to be provided as input to the Visual Recognition node:
-![Reco-Lab-Change_and_Reco-Node-Props](images/reco_lab_change_and_reco_node_props.png)
+![Reco-Lab-Change_and_Reco-Node-Props](reco_lab_change_and_reco_node_props.png)
 
- - The ![Watson Visual Recognition](images/node_red_watson_visual_recognition.png) node. Make sure that the credentials are setup from IBM Cloud, i.e. that the service is bound to the application. This can be verified by checking that the properties for the Visual Recognition node are clear:
+ - The ![Watson Visual Recognition](node_red_watson_visual_recognition.png) node. Make sure that the credentials are setup from IBM Cloud, i.e. that the service is bound to the application. This can be verified by checking that the properties for the Visual Recognition node are clear:
 
- ![Visual Recognition node properties](images/reco_lab_visual_recognition_service_credentials.png)
+ ![Visual Recognition node properties](reco_lab_visual_recognition_service_credentials.png)
 
  - And a final  ![`template`](/introduction_to_node_red/images/node_red_template.png) node linked to the ![`HTTPResponse`](/introduction_to_node_red/images/node_red_httpresponse.png) output node. The template will format the output returned from the Visual Recognition node into an HTML table for easier reading:
 ```HTML
@@ -91,7 +91,7 @@ The nodes required to build this flow are:
     </body>
 </html>
 ```
-![Reco-Lab-TemplateReport-Node-Props](images/reco_lab_templatereport_node_props.png)  
+![Reco-Lab-TemplateReport-Node-Props](reco_lab_templatereport_node_props.png)  
 Note that the HTML snippet above has been simplified and stripped out of non-essential HTML tags, the completed flow solution has a complete HTML page.
 
 ### Testing the flow
@@ -100,7 +100,7 @@ The URL of the pre-selected images can be copied to clipboard and pasted into th
 
 The Watson Visual Recognition API will return an array with the recognized features, which will be formatted in a HTML table by the template:
 
-![Visual RecognitionScreenshot ](images/reco_lab_visual_recognition_screenshot.png)
+![Visual RecognitionScreenshot ](reco_lab_visual_recognition_screenshot.png)
 
 ### Flow source
 The complete flow is available [here](reco_lab_web_page.json).
