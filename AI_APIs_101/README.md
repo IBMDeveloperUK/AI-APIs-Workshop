@@ -2,7 +2,7 @@
 
 In this workshop you will get your first hands-on with a Natural Language Understanding API using Node-RED.
 
-This workshop is made using IBM Cloud for simplicity, though if you feel more comfortable with an other platform, an other Natural Language service or if you want to run Node-RED on your machine, please do! 
+This workshop is made using IBM Cloud for simplicity, though if you feel more comfortable with another platform, another Natural Language service or if you want to run Node-RED on your machine, please do! 
 
 ## Before you begin
 
